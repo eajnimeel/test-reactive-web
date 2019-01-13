@@ -1,0 +1,12 @@
+debug: false
+
+logging:
+  level:
+    web: debug
+
+spring:
+  h2:
+    console:
+      enabled: true
+  http:
+    log-request-details: true
